@@ -11,7 +11,7 @@ public class Magic extends Hero {
     public void applySuperAbility(Hero[] heroes, Boss boss) {
         for (int i = 0; i <heroes.length ; i++) {
             Random r = new Random(2);
-            int randomnumber= r.nextInt(60);
-            heroes[i].setDamage(getDamage()+randomnumber);
+            int randomNumber= r.nextInt(15);
+            heroes[i].setDamage(getDamage()+randomNumber);
     }
 }}
